@@ -1,0 +1,16 @@
+
+## networking
+wireshark
+etherape
+tcpdump
+netcat
+traceroute
+ndisc6
+ngrep
+
+## Development
+ipython3
+cloc
+
+## graphic/prototyping
+pencil2d

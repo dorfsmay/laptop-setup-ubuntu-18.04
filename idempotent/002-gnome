@@ -1,0 +1,21 @@
+#!/bin/bash -e
+
+echo -e "\n\n    RUNNING $(basename $0)\n\n"
+
+# Switch to vanilla gnome
+sudo apt install -y gnome-session gnome-tweaks
+trap 'tput sgr0 ; stty sane' EXIT
+tput bold
+echo -e '\n\n\n\n\n\n> > > > > > CHOOSE OPTION "1" gnome-shell.css\n\n\n'
+tput sgr0
+sudo update-alternatives --config gdm3.css
+
+# Do not list users in GDM3 login screen
+sudo -Hu gdm dbus-launch gsettings set org.gnome.login-screen disable-user-list true
+
+# Get rid of Ubuntu Amazon launcher etc...
+sudo apt purge -y ubuntu-web-launchers
+
+# extra required packages
+sudo apt install -y gnome-tweaks gnome-games gnome-shell-extension-redshift
+

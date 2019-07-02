@@ -1,0 +1,156 @@
+
+## laptops
+tlp
+
+## admin tools
+powertop
+iftop
+atop
+iotop
+htop
+sysstat
+
+# web
+curl
+
+# utils
+silversearcher-ag
+dos2unix
+keepassxc
+ghostscript
+tree
+git
+psmisc
+moreutils
+whois
+pv
+
+
+## editors
+vim
+nano
+nedit
+gedit
+
+## java
+default-jdk
+
+# file system
+gmtp
+mtp-tools
+# For large SAN disk from cameras
+exfat-fuse
+exfat-utils
+
+# office / productivity
+gthumb
+digikam
+thunderbird
+dia
+icoutils
+openclipart-png
+# wv
+gv
+ghostscript
+#pdfedit
+
+## graphic tools
+graphicsmagick
+exiv2
+pdfshuffler
+html2ps
+graphviz
+xclip
+
+## graphics gui
+pinta
+gpaint
+inkscape
+mypaint
+gimp
+gimp-data-extras
+gimp-dds
+gimp-gap
+gimp-lensfun
+gimp-ufraw
+krita
+
+
+## Libreoffice
+## installed by defualt on 18.04
+#libreoffice
+
+# spell checker, hyphen, thesaurus
+hunspell
+hunspell-fr
+hunspell-en-ca
+hyphen-en-us
+hyphen-fr
+
+
+# browsers
+firefox
+browser-plugin-vlc
+chromium-browser
+
+# ereaders, e-books, ebook
+fbreader
+calibre
+
+# music
+solfege
+lilypond
+
+## Remote desktops
+rdesktop
+freerdp-x11
+## vnc
+#x11vnc
+#tightvncserver
+#xtightvncviewer
+#directvnc
+
+# edubuntu
+#ubuntu-edu-preschool
+#ubuntu-edu-primary
+#ubuntu-edu-secondary
+#ubuntu-edu-tertiary
+
+# media from https://launchpad.net/~mc3man/+archive/ubuntu/bionic-media
+mpv
+gnome-mpv
+#ffmpeg-static
+#ffmpeg-shared
+
+# DVD from ubuntu repos
+libdvdnav4
+libdvdread4
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-ugly
+gstreamer1.0-tools
+gstreamer1.0-libav
+libdvd-pkg
+regionset
+ogmtools
+brasero
+
+# media base from ubuntu repos
+ffmpeg
+x264
+vlc
+
+# video / sound apps
+youtube-dl
+recordmydesktop
+audacity
+cheese
+flac
+sound-juicer
+openshot
+vorbis-tools
+sox
+bplay
+lame
+netpbm
+pitivi
+

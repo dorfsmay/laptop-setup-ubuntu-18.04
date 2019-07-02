@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+echo -e "\n\n    RUNNING $(basename $0)\n\n"
+
+sudo apt install -y software-properties-common
+
