@@ -1,0 +1,37 @@
+
+= Customize Ubuntu 18.04 to run with vanilla GNOME
+
+Running all the scripts (or the "`runall.bash`" script) will install vanilla GNOME and setup my personal preferences for settings and packages.
+Pick and chose scripts to suit your own needs.
+
+A lot of manual steps are required. Earlier attempts of automating everything have led to complexity resulting in stagnation and difficulties to maintain across new vesions of OS. I tried to strike a balance between automation, simplicity and maintainability for future versions.
+
+== Basic setup
+. Install Ubuntu
+
+. Get files and unzip::
+
+ cd /var/tmp
+ wget https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/archive/master.zip
+ unzip master.zip
+
+. Install everything 
+
+ cd laptop-setup-ubuntu-18.04/idempotent
+ ./runall.bash
+
+. reboot
+
+. First login: +
+When logging in for the first time with GDM3, before typing your password, click on the cogwheel and select "*GNOME on Xorg*"
+
+== Manual steps
+
+=== Install pcloud
+. Download the pcloud executable from https://www.pcloud.com/download-free-online-cloud-file-storage.html with a browser
+. run the script (it assumes the executable has been downloaded in `~/Downloads`)
+
+ cd /var/tmp/laptop-setup-ubuntu-18.04/dependant
+ ./pcloud
+
+. run the script
