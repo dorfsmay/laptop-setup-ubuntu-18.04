@@ -16,6 +16,9 @@ sudo -Hu gdm dbus-launch gsettings set org.gnome.login-screen disable-user-list 
 # Get rid of Ubuntu Amazon launcher etc...
 sudo apt purge -y ubuntu-web-launchers
 
+# Get Legacy Tray icons (tray no longer available in new versions of GNOME) in top bar
+sudo apt install -y gnome-shell-extension-top-icons-plus
+
 # extra required packages
 sudo apt install -y gnome-tweaks gnome-games gnome-shell-extension-redshift
 

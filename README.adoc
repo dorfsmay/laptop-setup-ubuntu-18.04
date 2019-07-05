@@ -34,4 +34,23 @@ When logging in for the first time with GDM3, before typing your password, click
  cd /var/tmp/laptop-setup-ubuntu-18.04/dependant
  ./pcloud
 
-. run the script
+=== Tweak Tool
+
+==== Date on top bar
+. Top Bar
+. Clock -> Date
+
+==== Window Titlebar
+. Windows
+* Titlebar Actions -> Double-Click -> None
+* Titlebar Buttons -> Maximize -> ON
+* Titlebar Buttons -> Minimize -> ON 
+
+==== Focus follow mouse
+. Windows
+. Windows Focus
+
+==== Redshift
+. Extensions
+. Redshift
+
