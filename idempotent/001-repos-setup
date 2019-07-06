@@ -4,3 +4,9 @@ echo -e "\n\n    RUNNING $(basename $0)\n\n"
 
 sudo apt install -y software-properties-common
 
+# Upgrading before installing new packages avoids edge case conflicts
+# during the package configuration.
+sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove
+

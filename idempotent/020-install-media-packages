@@ -1,0 +1,33 @@
+#!/bin/bash -e
+
+echo -e "\n\n    RUNNING $(basename $0)\n\n"
+
+# multi media
+sudo add-apt-repository ppa:mc3man/bionic-media
+sudo apt update
+
+# media from https://launchpad.net/~mc3man/+archive/ubuntu/bionic-media
+sudo apt install -y mpv gnome-mpv
+
+# DVD from ubuntu repos
+sudo apt install -y libdvdnav4 libdvdread4 libdvd-pkg regionset
+# dpkg-reconfigure needs to be run after libdvd-pkg is installed
+# https://askubuntu.com/questions/1052993/how-to-install-libdvdcss-so-2-library-to-ubuntu-18-04
+sudo dpkg-reconfigure libdvd-pkg 
+
+# Other media packages
+sudo apt install -y \
+    gstreamer1.0-plugins-bad \
+    gstreamer1.0-plugins-ugly \
+    gstreamer1.0-tools \
+    gstreamer1.0-libav \
+    ogmtools \
+    brasero \
+    ffmpeg \
+    x264 \
+    vlc \
+    ubuntu-restricted-extras
+
+sudo apt upgrade -y
+sudo apt autoremove
+

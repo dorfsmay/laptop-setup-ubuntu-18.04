@@ -116,29 +116,6 @@ freerdp-x11
 #ubuntu-edu-secondary
 #ubuntu-edu-tertiary
 
-# media from https://launchpad.net/~mc3man/+archive/ubuntu/bionic-media
-mpv
-gnome-mpv
-#ffmpeg-static
-#ffmpeg-shared
-
-# DVD from ubuntu repos
-libdvdnav4
-libdvdread4
-gstreamer1.0-plugins-bad
-gstreamer1.0-plugins-ugly
-gstreamer1.0-tools
-gstreamer1.0-libav
-libdvd-pkg
-regionset
-ogmtools
-brasero
-
-# media base from ubuntu repos
-ffmpeg
-x264
-vlc
-
 # video / sound apps
 youtube-dl
 recordmydesktop
