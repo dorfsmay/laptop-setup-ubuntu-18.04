@@ -25,39 +25,5 @@ A lot of manual steps are required. Earlier attempts of automating everything ha
 . First login: +
 When logging in for the first time with GDM3, before typing your password, click on the cogwheel and select "*GNOME on Xorg*"
 
-== Manual steps
-
-=== Install pcloud
-. Download the pcloud executable from https://www.pcloud.com/download-free-online-cloud-file-storage.html with a browser
-. run the script (it assumes the executable has been downloaded in `~/Downloads`)
-
- cd /var/tmp/laptop-setup-ubuntu-18.04/dependant
- ./pcloud
-
-=== Tweak Tool
-
-==== Date on top bar
-. Top Bar
-. Clock -> Date
-
-==== Window Titlebar
-. Windows
-* Titlebar Actions -> Double-Click -> None
-* Titlebar Buttons -> Maximize -> ON
-* Titlebar Buttons -> Minimize -> ON 
-
-==== Focus follow mouse
-. Windows
-. Windows Focus
-
-==== Redshift
-. Extensions
-. Redshift
-
-
-== Issues during normal usage
-
-=== pcloud not syncing
-. Right click on the icon in the top bar -> exit
-. `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]`
+. Check manual steps in the `MANUAL-STEPS` directory
 

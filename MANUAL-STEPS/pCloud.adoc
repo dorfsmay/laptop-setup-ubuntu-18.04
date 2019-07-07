@@ -1,0 +1,18 @@
+= pCloud client on Ubuntu 18.04
+
+== Install
+. Download the pcloud executable from https://www.pcloud.com/download-free-online-cloud-file-storage.html with a browser
+. move file (alternatively run script in https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/blob/master/dependant/pcloud.bash[dependant/pcloud.bash]
+* chmod +rx ~/Downloads/pcloud
+* sudo mkdir -p /usr/local/bin
+* mv ~/Downloads/pcloud /usr/local/bin/.
+* `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]
+
+
+. run the script (it assumes the executable has been downloaded in `~/Downloads`)
+
+== Issues
+When pcloud is no syncing, restart it:
+. Right click on the icon in the top bar -> exit
+. `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]`
+
