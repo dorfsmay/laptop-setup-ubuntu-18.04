@@ -8,9 +8,6 @@
 * mv ~/Downloads/pcloud /usr/local/bin/.
 * `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]
 
-
-. run the script (it assumes the executable has been downloaded in `~/Downloads`)
-
 == Issues
 When pcloud is no syncing, restart it:
 . Right click on the icon in the top bar -> exit

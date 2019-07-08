@@ -25,5 +25,5 @@ A lot of manual steps are required. Earlier attempts of automating everything ha
 . First login: +
 When logging in for the first time with GDM3, before typing your password, click on the cogwheel and select "*GNOME on Xorg*"
 
-. Check manual steps in the `MANUAL-STEPS` directory
+. Check manual steps in the https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/tree/master/MANUAL-STEPS[MANUAL-STEPS] directory
 
