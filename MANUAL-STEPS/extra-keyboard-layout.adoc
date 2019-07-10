@@ -1,0 +1,13 @@
+= Adding extra keyboard language layouts
+
+. Start GNOME _Settings_
+. _Language and Region_
+. _Input Sources_
+. Add layout
+. Select the new layout -> Manage Installed Languages
+. "The language support is not installed completedly" -> _Install_ -> _Close_
+. reboot
+
+Use [`Super`] + [`space`] to switch between layouts.
+
+
