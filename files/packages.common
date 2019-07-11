@@ -80,6 +80,10 @@ krita
 ## installed by defualt on 18.04
 #libreoffice
 
+# formatters
+asciidoc
+asciidoctor
+
 # spell checker, hyphen, thesaurus
 hunspell
 hunspell-fr

@@ -1,0 +1,22 @@
+= thunderbird customization
+
+== CardBook
+CardBook is a Thunderbird extension that manages Contacts via vCard, allowing for example, full 2-way sync with Googl Contacts.
+
+== Install
+. ☰ -> Add-ons
+. Extensions -> Disable "Messaging Menu and Unity Launcher integration
+. Get Add-ons -> More ways to customize / Browse all add-ons
+. search for "cardbook"
+. Add to Thunderbird -> Install Now
+. Restart Thunderbird
+
+== Setup
+* Right click on "Collected Addresses" -> Delete Address Book
+* Right click on "Personal Address Book" -> Delete Address Book
+* CardBook -> ☰ -> Address Book -> New Address Book -> remote
+
+To collect outgoing email:
+
+* CardBook -> ☼ Preferences -> Email -> Collect Outgoing Email
+
