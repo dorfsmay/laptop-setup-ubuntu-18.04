@@ -2,23 +2,32 @@
 
 == Customization
 
-=== Default to plain text and quotation
-* click on account name
-* ☼ View settings for this account
-* Composition & Addressing
-* Deselect Compose messages in HTML format
-* Automatically quote the original message when replyng -> start my reply below the quote
+=== Spelling
+. ☰ -> Preferences -> Preferences
+. Composition
+. Spelling
+. Choose the default language
 
+=== Threaded view
+. ☰ -> Preferences -> View
+. Sort by
+. threaded
+
+=== Default to plain text and quotation
+. click on account name
+. ☼ View settings for this account
+. Composition & Addressing
+. Deselect Compose messages in HTML format
+. Automatically quote the original message when replyng -> start my reply below the quote
 
 === Retention on Sent and Deleted
-* right click on folder
-* Properties
-* Retention Policy
+. right click on folder
+. Properties
+. Retention Policy
 
 
 == CardBook
 CardBook is a Thunderbird extension that manages Contacts via vCard, allowing for example, full 2-way sync with Googl Contacts.
-
 
 === Install
 . ☰ -> Add-ons
@@ -27,7 +36,6 @@ CardBook is a Thunderbird extension that manages Contacts via vCard, allowing fo
 . search for "cardbook"
 . Add to Thunderbird -> Install Now
 . Restart Thunderbird
-
 
 === Setup
 * Right click on "Collected Addresses" -> Delete Address Book
