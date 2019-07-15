@@ -8,6 +8,18 @@
 . Spelling
 . Choose the default language
 
+=== Flow / text wrapping
+. ☰ -> Preferences -> Preferences
+
+. Advanced
+
+. General
+
+. Config Editor
+* mailnews.wraplength: 0
+
+
+
 === Threaded view
 . ☰ -> Preferences -> View
 . Sort by

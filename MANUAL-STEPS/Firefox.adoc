@@ -1,0 +1,40 @@
+= Firefox setup and customization
+
+. Setup profiles
+. customize preferences
+
+== Preferences
+Edit preferences:
+
+☰ -> Preferences
+
+=== General
+
+=== Home
+* General
+
+* Homepage and new windows -> Blank Page
+
+* New tabs -> Blank Page
+
+* deselect:
+** Web Search
+** Top Sites
+** Recommended by Pocket
+** Highlights
+
+=== Search
+
+=== Privacy & Security
+* content Blocking -> Standard
+
+* Send websites "do Not Track" -> Always
+
+* Cookies and Site Data -> Delete cookies and site data when Firefox is closed
+
+* Logins and Passwords -> deselect all options
+
+* History -> Use custom settings for history
+** Remember Search and form history
+** Clear history when Firefox closes
+
