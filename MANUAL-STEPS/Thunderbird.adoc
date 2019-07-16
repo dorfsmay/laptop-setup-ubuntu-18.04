@@ -1,4 +1,4 @@
-= thunderbird customization
+= Thunderbird customization
 
 == Customization
 
@@ -26,11 +26,16 @@
 . threaded
 
 === Default to plain text and quotation
-. click on account name
-. ☼ View settings for this account
+. right click on account name
+. Settings
 . Composition & Addressing
 . Deselect Compose messages in HTML format
 . Automatically quote the original message when replyng -> start my reply below the quote
+
+=== Signature file
+. right click on account name
+. Settings
+. Attach the signature file
 
 === Retention on Sent and Deleted
 . right click on folder
