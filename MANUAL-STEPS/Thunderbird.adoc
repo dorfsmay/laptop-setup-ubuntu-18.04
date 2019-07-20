@@ -8,7 +8,7 @@
 . Spelling
 . Choose the default language
 
-=== Flow / text wrapping
+=== Flow / text wrapping + disable Autocrypt
 . ☰ -> Preferences -> Preferences
 
 . Advanced
@@ -17,7 +17,7 @@
 
 . Config Editor
 * mailnews.wraplength: 0
-
+* mail.server.default.enableAutocrypt: false
 
 
 === Threaded view
