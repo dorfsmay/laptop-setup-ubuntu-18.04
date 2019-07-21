@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-echo -e "\n\n    RUNNING $(basename $0)\n\n"
-
 #
 # Adding support for Samsung wifi MFP printer/scanner
 # https://www.bchemnet.com/suldr/

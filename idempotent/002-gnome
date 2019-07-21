@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-echo -e "\n\n    RUNNING $(basename $0)\n\n"
-
 # Switch Ununtu 18/04 to vanilla gnome
 sudo apt install -y gnome-session gnome-tweaks
 trap 'tput sgr0 ; stty sane' EXIT

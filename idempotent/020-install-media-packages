@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-echo -e "\n\n    RUNNING $(basename $0)\n\n"
-
 # multi media
 sudo add-apt-repository ppa:mc3man/bionic-media
 sudo apt update

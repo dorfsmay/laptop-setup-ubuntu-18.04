@@ -8,8 +8,9 @@ if [[ ! -f $(basename ${BASH_SOURCE[0]}) ]] ; then
     exit 1
 fi
 
-for f in [0-9]*
+for f in [0-9][0-9][0-9]*
 do
+    tput bold ; echo -e "\n\n\n\n    #### RUNNING $(basename $f) ####\n" ; tput sgr0
     ./$f
 done
 
