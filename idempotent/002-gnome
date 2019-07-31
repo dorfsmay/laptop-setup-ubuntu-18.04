@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# Switch Ununtu 18/04 to vanilla gnome
+# Switch Ununtu 18.04 to vanilla gnome
 sudo apt install -y gnome-session gnome-tweaks
 trap 'tput sgr0 ; stty sane' EXIT
 tput bold
@@ -11,7 +11,7 @@ sudo update-alternatives --config gdm3.css
 # Do not list users in GDM3 login screen
 sudo -Hu gdm dbus-launch gsettings set org.gnome.login-screen disable-user-list true
 
-# Get rid of Ubuntu Amazon launcher etc...
+# Get rid of Ubuntu Amazon launcher and other garbage
 sudo apt purge -y ubuntu-web-launchers
 
 # Get Legacy Tray icons (tray no longer available in new versions of GNOME) in top bar

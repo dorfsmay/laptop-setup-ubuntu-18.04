@@ -5,7 +5,7 @@
 . move file (alternatively run script in https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/blob/master/dependant/pcloud.bash[dependant/pcloud.bash]
 * chmod +rx ~/Downloads/pcloud
 * sudo mkdir -p /usr/local/bin
-* mv ~/Downloads/pcloud /usr/local/bin/.
+* sudo mv ~/Downloads/pcloud /usr/local/bin/.
 * `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]
 
 == Issues

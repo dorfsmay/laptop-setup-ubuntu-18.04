@@ -11,7 +11,6 @@ Edit preferences:
 === General
 
 === Home
-* General
 
 * Homepage and new windows -> Blank Page
 

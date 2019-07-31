@@ -3,7 +3,7 @@
 . Start GNOME _Settings_
 . _Language and Region_
 . _Input Sources_
-. Add layout
+. Add layout (use the + sign. Click on Other if the language you need is not displayed)
 . Select the new layout -> Manage Installed Languages
 . "The language support is not installed completedly" -> _Install_ -> _Close_
 . reboot

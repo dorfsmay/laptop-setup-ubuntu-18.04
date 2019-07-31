@@ -17,7 +17,8 @@
 
 . Config Editor
 * mailnews.wraplength: 0
-* mail.server.default.enableAutocrypt: false
+* mail.server.default.enableAutocrypt: false +
+  Note: enableAutocrypt will only be available if an encryption extension has been installed. Can be ignored if not present.
 
 
 === Threaded view
