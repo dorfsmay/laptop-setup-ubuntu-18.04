@@ -4,6 +4,7 @@ wireshark
 etherape
 tcpdump
 netcat
+net-tools
 traceroute
 ndisc6
 ngrep
