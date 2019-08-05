@@ -56,9 +56,9 @@ CardBook is a Thunderbird extension that manages Contacts via vCard, allowing fo
 . Restart Thunderbird
 
 === Setup
-* Right click on "Collected Addresses" -> Delete Address Book
-* Right click on "Personal Address Book" -> Delete Address Book
 * CardBook -> ☰ -> Address Book -> New Address Book -> remote
+* Right click on "Collected Addresses" -> Delete Address Book (if present)
+* Right click on "Personal Address Book" -> Delete Address Book (if present)
 
 To collect outgoing email:
 

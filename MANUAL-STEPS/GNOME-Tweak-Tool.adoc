@@ -19,6 +19,11 @@
 . Topiocon plus -> ON
 . ⚙ -> Tray horizontal alignment
 
+== Trackpad setting
+. Keyboard and Mouse
+. Mouse Click Emulation
+. Area
+
 == Redshift
 . Extensions (Redshift extension needs to be installed)
 . Redshift
