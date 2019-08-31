@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+cd && rmdir Videos Templates Public Pictures Music Documents
+sudo apt-get install --reinstall --purge fontconfig fontconfig-config
+
