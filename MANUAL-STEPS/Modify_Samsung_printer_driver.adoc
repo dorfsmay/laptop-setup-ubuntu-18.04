@@ -6,13 +6,13 @@ Keep the link:../idempotent/031-suldr-samsung-drivers[suldr] driver as it is req
 
 . open a browser
 . navigate to http://localhost:631
-. click on "`Printers`" in top bar
+. click on `Printers` in top bar
 . click on name of the printer (Samsung...)
-. click on the "`Administration`" drop down menu, and select "`Modify Printer`"
+. click on the `Administration` drop down menu, and select `Modify Printer`
 . you'll be prompted for your user id and password, enter your Linux login credentials
-. select the first printer in "`Discovered Network Printers`", "`Continue`"
-. "`Continue`" again
-. select "`Samsung XXXXX driverless cups-filters`", "`Modify Printer`"
+. select the first printer in `Discovered Network Printers`, `Continue`
+. `Continue` again
+. select `Samsung XXXXX driverless cups-filters`, `Modify Printer`
 
 
 
