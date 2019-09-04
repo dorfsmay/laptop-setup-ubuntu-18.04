@@ -1,8 +1,15 @@
 = Miscellaneous issues
 
 == Screen rotated at 90°
-On one laptop, the screen orientation was as expected after the initial installed, but rotated 90° after the customization. Running `xrandr -o normal` corrected it and survived reboots:
+=== Immediate fix
+On one laptop, the screen orientation was as expected after the initial installed, but rotated 90° after the customization. Running `xrandr -o normal`:
 
 . open a terminal `[Ctrl]` + `[Alt]` + `[F2]`
 . type: `xrandr -o normal`
+
+=== Keep orientation
+For one laptop, it looked like the right setting was displayed, but the wrong one was saved on file. This, fixed the issue:
+. Open "Settings" -> "Devices" -> "Screen Display"
+. Change "Orientation" to "Portrait Right" -> "Apply" -> "Keep Changes"
+. Change "Orientation" to "Landscape" -> "Apply" -> "Keep Changes"
 
