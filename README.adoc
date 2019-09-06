@@ -4,7 +4,16 @@
 Running all the scripts (or the "`runall.bash`" script) will install vanilla GNOME and setup my personal preferences for settings and packages.
 Pick and chose scripts to suit your own needs.
 
-A lot of manual steps are required. Earlier attempts of automating everything have led to complexity resulting in stagnation and difficulties to maintain across new vesions of OS. I tried to strike a balance between automation, simplicity and maintainability for future versions.
+A lot of manual steps are required. Earlier attempts of automating everything have led to complexity resulting in stagnation and difficulties to maintain across new vesions of OS.
+I tried to strike a balance between automation, simplicity and maintainability for future versions.
+
+== Why using Bash
+It was a conscious decision to use GNU Bash as the programing language despite its many flaws for reasons which distinguish it from recent build systems:
+
+* Bash is well known and an integral part of Linux systems. Anybody familiar with customizing Linux systems has already been exposed to Bash.
+
+* Perennity: https://en.wikipedia.org/wiki/Bash_(Unix_shell)#History[Bash has been around for a long time, since 1988] (note: https://en.wikipedia.org/wiki/Linux#Creation[Linux was created in 1991]).
+https://en.wikipedia.org/wiki/Lindy_effect[Lindy effect] predicts that it will be around for at least another 30 years.
 
 == Basic setup
 . Install Ubuntu
