@@ -22,7 +22,7 @@
 
 
 === Threaded view
-. ☰ -> Preferences -> View
+. ☰ -> View
 . Sort by
 . threaded
 
