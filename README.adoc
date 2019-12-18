@@ -36,3 +36,16 @@ When logging in for the first time with GDM3, before typing your password, click
 
 . Check manual steps in the https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/tree/master/MANUAL-STEPS[MANUAL-STEPS] directory
 
+== Regular updates
+
+* update Ubuntu
+. `sudo apt update`
+. `sudo apt upgrade -y`
+. reboot
+
+* upgrade pCloud if required
+** from the apps
+. right-click on pCloud icon
+. Preferences
+. click on "Update now" if available
+** If it fails from within the apps, follow instructions to link:MANUAL-STEPS/pCloud.adoc[download and install pCloud manuall]
