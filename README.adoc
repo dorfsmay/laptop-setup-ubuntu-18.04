@@ -44,8 +44,8 @@ When logging in for the first time with GDM3, before typing your password, click
 . reboot
 
 * upgrade pCloud if required
-** from the apps
+** follow instructions to link:MANUAL-STEPS/pCloud.adoc[download and install pCloud manually]
+** from the apps (never seen it working)
 . right-click on pCloud icon
 . Preferences
 . click on "Update now" if available
-** If it fails from within the apps, follow instructions to link:MANUAL-STEPS/pCloud.adoc[download and install pCloud manuall]

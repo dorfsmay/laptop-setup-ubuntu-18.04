@@ -3,9 +3,10 @@
 == Install
 . Download the pcloud executable from https://www.pcloud.com/download-free-online-cloud-file-storage.html with a browser
 . move file (alternatively run script in https://github.com/dorfsmay/laptop-setup-ubuntu-18.04/blob/master/dependant/pcloud.bash[dependant/pcloud.bash]
-* chmod +rx ~/Downloads/pcloud
-* sudo mkdir -p /usr/local/bin
-* sudo mv ~/Downloads/pcloud /usr/local/bin/.
+* `chmod +rx ~/Downloads/pcloud`
+* `sudo mkdir -p /usr/local/bin`
+* `test -f /usr/local/bin/pcloud && sudo mv /usr/local/bin/pcloud /usr/local/bin/pcloud.old`
+* `sudo mv ~/Downloads/pcloud /usr/local/bin/.`
 * `[Alt]` + `[F2]` -> `pcloud` -> `[Enter]
 
 == Issues
