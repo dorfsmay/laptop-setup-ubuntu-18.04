@@ -32,6 +32,7 @@ vim
 nano
 nedit
 gedit
+rlwrap
 
 ## java
 default-jdk
