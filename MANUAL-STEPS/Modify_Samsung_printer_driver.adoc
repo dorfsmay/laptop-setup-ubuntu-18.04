@@ -1,21 +1,10 @@
-= Modify Samsung printer driver
+= Samsung printers
 
-Keep the link:../idempotent/031-suldr-samsung-drivers[suldr] driver as it is required for scanning software to access the MFP.
+In 2017 HP purchased Samsung's printer business. Drivers for Samsung drivers for Linux have not been updated since.
 
-== Modify the driver
+To remove Samsnung drivers from:
+....
+sudo apt purge '*suld*'
+sudo apt purge suld-ppd-4
+....
 
-. open a browser
-. navigate to http://localhost:631
-. click on `Printers` in top bar
-. click on name of the printer (Samsung...)
-. click on the `Administration` drop down menu, and select `Modify Printer`
-. you'll be prompted for your user id and password, enter your Linux login credentials
-. select the first printer in `Discovered Network Printers`, `Continue`
-. `Continue` again
-. select `Samsung XXXXX driverless cups-filters`, `Modify Printer`
-
-
-
-== Question on Ask Ubuntu
-Veirfy if the question on Ask Ubuntu has updates: +
-https://askubuntu.com/questions/1169909/samsung-wifi-printer-printing-garbage-after-upgrading-to-18-04

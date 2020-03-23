@@ -1,0 +1,13 @@
+= Brother Multifunction Printer Scanner
+
+Download the driver from the Brother site: +
+https://support.brother.com/g/s/id/linux/en/
+
+For the DCP-L25500W, use the brscan4, "brscan 64 bit" deb file: +
+https://support.brother.com/g/s/id/linux/en/download_scn.html#brscan4
+
+Then:
+....
+dpkg -i brscan4*.deb
+brsaneconfig4 -q
+....
