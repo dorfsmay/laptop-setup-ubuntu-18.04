@@ -2,7 +2,7 @@
 
 In 2017 HP purchased Samsung's printer business. Drivers for Samsung drivers for Linux have not been updated since.
 
-To remove Samsnung drivers from:
+To remove Samsnung drivers:
 ....
 sudo apt purge '*suld*'
 sudo apt purge suld-ppd-4
