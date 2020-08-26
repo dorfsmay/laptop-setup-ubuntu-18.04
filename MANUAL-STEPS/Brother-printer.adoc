@@ -9,4 +9,7 @@ Then:
 ....
 dpkg -i brscan4*.deb
 brsaneconfig4 -q
+brsaneconfig4 -a
 ....
+
+A GUI listing of the scanners on your network will appear, select the one you want to use and click "OK".
