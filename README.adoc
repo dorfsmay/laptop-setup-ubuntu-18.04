@@ -1,6 +1,8 @@
 
 = Customize Ubuntu 18.04 to run with vanilla GNOME
 
+*This is no longer maintained, I am now using Fedora: https://github.com/dorfsmay/fedora-workstation-setup*
+
 Running all the scripts (or the "`runall.bash`" script) will install vanilla GNOME and setup my personal preferences for settings and packages.
 Pick and chose scripts to suit your own needs.
 
